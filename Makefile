@@ -1,7 +1,8 @@
 TARGETS:=\
 	hello.x\
 	intvaradd.x\
-	intvarsub.x
+	intvarsub.x\
+	intarrsum.x
 
 .PHONY: all
 all: $(TARGETS)
@@ -9,10 +10,10 @@ all: $(TARGETS)
 .PRECIOUS: %.o
 
 %.o: %.S
-	as $^ -o $@
+	as $^ -g -o $@
 
 %.x: %.o
-	ld $^ -o $@
+	ld $^ --no-relax -o $@
 
 .PHONY: clean
 clean:
