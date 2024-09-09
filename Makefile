@@ -1,4 +1,6 @@
-TARGETS:=hello.x
+TARGETS:=\
+	hello.x\
+	intvaradd.x
 
 .PHONY: all
 all: $(TARGETS)
