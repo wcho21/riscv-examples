@@ -3,7 +3,13 @@ TARGETS:=\
 	intvaradd.x\
 	intvarsub.x\
 	intarrsum.x\
-	strvarprint.x
+	strvarprint.x\
+	if.x\
+	ifelse.x\
+	ifelseifelse.x\
+	ifand.x\
+	ifor.x\
+	for.x
 
 .PHONY: all
 all: $(TARGETS)
