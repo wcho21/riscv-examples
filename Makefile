@@ -2,7 +2,8 @@ TARGETS:=\
 	hello.x\
 	intvaradd.x\
 	intvarsub.x\
-	intarrsum.x
+	intarrsum.x\
+	strvarprint.x
 
 .PHONY: all
 all: $(TARGETS)
