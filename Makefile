@@ -9,7 +9,9 @@ TARGETS:=\
 	ifelseifelse.x\
 	ifand.x\
 	ifor.x\
-	for.x
+	for.x\
+	setx.x\
+	sum.x
 
 .PHONY: all
 all: $(TARGETS)
