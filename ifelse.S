@@ -15,7 +15,7 @@ _start:
 else:
     addi a1, a1, 2
 skip:
-    
+
     mv  a0, a1
     li  a7, 93
     ecall

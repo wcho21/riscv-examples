@@ -21,7 +21,7 @@ elseif:
 else:
     addi a1, a1, 3
 skip:
-    
+
     mv  a0, a1
     li  a7, 93
     ecall

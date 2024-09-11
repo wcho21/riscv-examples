@@ -13,7 +13,7 @@ _start:
     sw    t1, 4(t0)
     li    t1, 22
     sw    t1, 8(t0)
-    
+
 .data
 sum: .word 0
 

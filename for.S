@@ -14,7 +14,7 @@ for:
     addi a2, a2, 1
     j    for
 skip:
-    
+
     mv  a0, a1
     li  a7, 93
     ecall

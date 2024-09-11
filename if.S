@@ -11,7 +11,7 @@ _start:
     bne  a2, t0, skip
     addi a1, a1, 1
 skip:
-    
+
     mv  a0, a1
     li  a7, 93
     ecall
